@@ -1,0 +1,14 @@
+name: vxuni
+channels:
+  - conda-forge
+  # need this toget 1.0.0dev bokeh; current version is 0.13
+  # we need > 0.13 for ipywidgets to work
+  - bokeh/label/dev
+dependencies:
+  - bokeh>=1.0.0dev6
+  - ipywidgets
+  - lxml
+  - nodejs
+  - pandas
+  - python=3.6
+  - jupyterlab
